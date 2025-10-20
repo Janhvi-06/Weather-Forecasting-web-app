@@ -42,12 +42,18 @@ This project uses a public API such as **OpenWeatherMap API** to fetch weather d
 You can register for a free API key and replace it in your `script.js` file like this:
 const apiKey = "your_api_key_here";
 
+--- 
+
 ## 🎯 Purpose of the Project
 This project was developed as part of my **internship program** to gain hands-on experience with:  
 - API integration using JavaScript  
 - Front-end design principles  
 - GitHub project management  
 - Real-world web application deployment
+
+
+---
+
 
 ## 👩‍💻 Developer Info
 **Developer:** Janhvi Chogale  
