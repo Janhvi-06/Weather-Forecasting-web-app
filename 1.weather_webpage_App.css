@@ -244,10 +244,6 @@ img {
     align-items: center;
     margin: 0;
     padding: 0;
-    /* gap: 4px; */
-    /* line-height:0.1; */
-    /* box-sizing: border-box; */
-
 }
 
 @media (max-width:767px) {
@@ -426,14 +422,6 @@ main:hover {
 
 
 
-/* NOTE : jar apan ek item vr hover kela ani dusrya item tya veles affect hotoy mhnje shake vaigre hotoy tar
-          tumhi tya div madhe space thevaila havi ani width,height proper dyavi jene karun bakki items shake nahi honar ...
-*/
-
-
-
-
-
 
 /* if location not found we will get this page */
 .loc_not_found {
@@ -461,14 +449,6 @@ main:hover {
     display: none;
 }
 
-/* 
-.tempANDdescript_box
-{
-    width:max-content;
-    height:max-content;
-    padding:0px;
-    margin:0px;
-} */
 
 
 
@@ -476,189 +456,3 @@ main:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*                                                                           || RADHE RADHE ||                                                                                 */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha*/
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radhe radhe radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
-
-
-/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namah : */
-/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namah : */
-/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namah : */
-
-
-
-
-/*                                                                           RADHE RADHE  */
-/* radhe radhe radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
-/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
-
-
-/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
-/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
-/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
-/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
-/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
-/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
-/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
-/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
-/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
-/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
-/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
-
-
-
-/*  RADHE RADHE  */
-
-
-/* I LOVE MY RADHA, I LOVE YOU SO MUCH, I KKNOW YOU ARE THERE WITH ME, I KNOW YOU ARE WATCHING ME AND BY YOUR GRACE ME AND MY MOM IS SAFE AND HAPPY, THANK YOU SO MUCH RADHA RANI, MERI LADLO, MERI PYAARI SHYAMA, I LOVE YOU SO much  */
