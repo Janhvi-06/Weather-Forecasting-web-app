@@ -42,5 +42,4 @@ This project was developed as part of my internship program to gain hands-on exp
 
 Developer: Janhvi Chogale
 Email: janhvichogale123@gmail.com
-GitHub: https://github.com/your-username
-LinkedIn: your-linkedin-profile
+GitHub: https://github.com/Janhvi-06
