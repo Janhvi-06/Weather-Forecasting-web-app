@@ -7,17 +7,19 @@ The project focuses on clean UI design, responsive layout, and dynamic data hand
 
 
 💡 _Features_ :
-🌍 Search weather information by city name
-🌦️ Displays temperature, humidity, wind speed, and weather condition
-🌡️ Dynamic background or weather icons based on live conditions
-📱 responsive and mobile-friendly design
-⚡ Uses real-time data from an external API (like OpenWeatherMap API)
+1. Search weather information by city name
+2. Displays temperature, humidity, wind speed, and weather condition
+3. Dynamic background or weather icons based on live conditions
+4. responsive and mobile-friendly design
+5. Uses real-time data from an external API (like OpenWeatherMap API)
+
 
 
 🧠 Technologies Used : 
-Frontend - HTML5, CSS3, JavaScript (ES6)
-API      - 	External Weather API (e.g., OpenWeatherMap)
-Tools    - 	VS Code, Git, GitHub
+1. Frontend - HTML5, CSS3, JavaScript (ES6)
+2. API      - 	External Weather API (e.g., OpenWeatherMap)
+3. Tools    - 	VS Code, Git, GitHub
+
 
 
 ⚙️ How It Works :
@@ -27,9 +29,11 @@ Tools    - 	VS Code, Git, GitHub
 4. The data is displayed dynamically on the screen.
 
 
+
 🧩 API Integration :
 This project uses a public API such as OpenWeatherMap API to fetch weather data.
 You can register for a free API key and replace it in your script.js file like this :  const apiKey = "your_api_key_here";
+
 
 
 🎯 Purpose of the Project :
@@ -40,6 +44,8 @@ This project was developed as part of my internship program to gain hands-on exp
 4. Real-world web application deployment
 
 
+
 Developer: Janhvi Chogale
-Email: janhvichogale123@gmail.com
-GitHub: https://github.com/Janhvi-06
+1. Email: janhvichogale123@gmail.com
+2. GitHub: https://github.com/Janhvi-06
+3. LinkdIn: https://www.linkedin.com/in/janhvi-chogale-084a29230
