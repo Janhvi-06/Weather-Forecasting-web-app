@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather web-based app using HTML, CSS, JavaScript</title>
+    <link rel="stylesheet" href="1.weather_webpage_App.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+   
+    <!-- HTML Structure ...! -->
+
+    <h1 class="page_title"> Weather Forecasting </h1>
+    
+     <div id="loader">
+    </div>
+
+    <main class="main_container" style="box-sizing: border-box; overflow: hidden;">
+
+        <!-- CONTAINER for search&submit button ... -->
+        <div class="Search_and_Submit">
+            <!-- SEARCH BAR -->
+            <div class="search">
+                <label for="searchBTN">
+                    <input class="searchBTN city_name" type="text" placeholder="Enter The City ...">
+                </label>
+            </div>
+            <br><br><br>
+            <!-- SUBMIT BUTTON -->
+            <div class="submit">
+                <button class="submit_btn">SUBMIT</button>
+
+
+            </div>
+        </div>
+        <br>
+
+
+        <!-- if LOCATION NOT FOUND then error will come show that error body here -->
+        <div class="loc_not_found">
+            <h1> Sorry, Location Not Found!!!</h1>
+            <img src="loc_not_fount - image.webp" alt="image of error">
+        </div>
+
+
+
+
+        <!-- WEATHER IMAGE -->
+        <div class="weather_img_div">
+            <img class="weather_img" src="weather_img.png" alt="temperature_data">
+        </div>
+
+
+        <br>
+        <!-- CONTAINER  for weather-image, temp and temp-description, location -->
+        <div class="Temperature_and_location_box">
+            <!-- shows weather-image -->
+
+            <!-- shows temp and description  -->
+            <div class="tempANDdescript_box">
+                <h1 class="temperature"> 0<sup style="font-size:20px">°C</sup> </h1>
+                <p class="temp_state"> (weather) </p>
+            </div>
+
+            <!-- shows location -->
+            <h1 id="location">location</h1>
+        </div>
+
+
+
+
+        <!-- section for humidity and windSpeed data-->
+        <section class="humidity_AND_windSpeed">
+            <!-- CONTAINER : div for humidity -->
+            <div class="humidity">
+                <!-- humidity icon -->
+                <i class="fa-solid fa-droplet" id="humidity_icon"> </i>
+
+                <!-- humidity description -->
+                <div class="humidity_descrip">
+                    <p class="humidity_percent">0%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <!-- CONTAINER : div for windSpeed -->
+            <div class="windSpeed">
+                <!-- wind speed icon -->
+                <i class="fa-solid fa-wind" id="windSpeed_icon"> </i>
+
+                <!-- wind description -->
+                <div class="wind_descrip">
+                    <p class="wind_km">0Km/H</p>
+                    <p> Wind Speed</p>
+                </div>
+            </div>
+        </section>
+        <br>
+
+        <div class="refresh submit">
+            <button class="refresh_btn">REFRESH</button>
+        </div>
+    </main>
+
+
+   <script src="1.weather_webpage_App.js">
+</script>
+
+ 
+</body>
+
+</html>

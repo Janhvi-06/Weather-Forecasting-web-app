@@ -1,0 +1,664 @@
+/* RESPONSIVE WEBPAGE FOR WIDTH LESS THAN 767PX FOR ALL SIZE OF MOBILE DEVICES...! */
+
+
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    /* background-image: url("weather_website_backgroun_NEW.jpg"); */
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),
+        /*made bg_img opacity lower than the main content*/
+        url("WEATHER_BG_IMAGE.jpg");
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+    /* position:fixed; */
+}
+
+/* 1. RESPONSIVE BODY FOR - screen size for less than 767px  */
+@media(max-width:767px) {
+    body {
+        /* background-image: url("weather_website_backgroun_NEW.jpg"); */
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),
+            /*made bg_img opacity lower than the main content*/
+            url("WEATHER_BG_IMAGE.jpg");
+        background-size: cover;
+        backdrop-filter: blur(4px);
+        /* border: 20px solid black; */
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+
+/* loader for loading the page the loader symbol will appear */
+#loader {
+            width: 50px;
+            height: 50px;
+            border:5px solid white;
+            border-top:3px solid black;
+            border-radius: 50%;
+            animation: loader 2s ease-in-out 1s infinite normal;
+            display: none;
+        }
+@keyframes loader {
+          from{
+            transform:rotate(0deg);
+            }
+            to{
+                transform:rotate(360deg);
+            }
+        }
+
+
+
+
+/* WEATHER CHECKING CONTAINER */
+main {
+    width: 30vw;
+    height: max-content;
+    /* height: 600px; */
+    padding: 5px;
+    background: linear-gradient(rgb(129, 184, 218), rgb(125, 131, 147), rgb(147, 138, 185), rgb(120, 147, 178), rgb(132, 125, 162));
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size:10px;
+    margin:5px;
+
+}
+
+/* 1. RESPONSIVE BODY FOR - screen size for less than 767px  - data_container  */
+@media (max-width:767px) {
+    main {
+        width: 80vw;
+        /* height:80vh; */
+        font-size: 3vw;
+        margin-bottom:1vh;
+
+    }
+}
+
+
+
+
+/* PAGE TITLE... */
+.page_title {
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    display: flex;
+}
+
+/* 1. RESPONSIVE BODY FOR - screen size for less than 767px  */
+@media (max-width:767px) {
+    .page_title {
+        font-size: 5vw;
+        text-align: center;
+        /* display: flex; */
+    }
+}
+
+
+
+.Search_and_Submit {
+    background-color: rgb(200, 215, 237), rgb(207, 218, 234), rgb(197, 215, 241);
+}
+
+
+
+
+/* SEARCH BAR */
+input[placeholder="Enter The City ..."] {
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    outline: none;
+    border-color: white;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: rgb(244, 239, 239);
+}
+
+/* 1. RESPONSIVE BODY FOR - screen size for less than 767px  */
+@media (max-width:767px) {
+
+    input[placeholder="Enter The City ..."] {
+        font-size: 4vw;
+        width: 35vw;
+        overflow: visible;
+    }
+}
+
+
+
+.search {
+    width: 280px;
+    height: 50px;
+}
+
+
+
+/* SUBMIT BUTTON */
+.refresh_btn,
+.submit_btn {
+    padding: 5px;
+    margin: 5px;
+    /* width: 100px; */
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(29, 200, 29);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (max-width:767px) {
+
+    .refresh_btn,
+    .submit_btn {
+        padding: 2vw;
+        font-size: 4vw;
+    }
+}
+
+
+
+
+/* CONTAINER OF WEATHER_IMG, TEMPERATURE,DESCRIPTION, LOCATION */
+.Temperature_and_location_box {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    /* line-height: 0.5; */
+    color: rgb(15, 42, 58);
+    /* border: 1px solid red; */
+}
+
+@media (max-width:767px) {
+    .Temperature_and_location_box {
+        width: 30vw;
+        height: 20vh;
+        padding:1vh;
+        font-size: 3vw;
+        color: rgb(15, 42, 58);
+        
+    }
+}
+
+/* WEATHER_IMG */
+/* NOTE : Wheni was hovering over the image that time the image was increasing by size and because of increasing size it was affecting the movement of its below item so for that please SET THE PROPER <div> WIDTH AND HEIGHT */
+.weather_img {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 80px;
+    line-height: 0.2;
+}
+
+img {
+    padding: 10px;
+    width: 100px;
+    height: 80px;
+    /* border: 1px solid red; */
+}
+
+@media (max-width:767px) {
+    .weather_img{
+        width: 40vw;
+        height: 10vh;
+        padding:1vw
+    }
+}
+
+
+
+/* TEMPERATURE AND DESCRIPTION BOX */
+.tempANDdescript_box {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    /* gap: 4px; */
+    /* line-height:0.1; */
+    /* box-sizing: border-box; */
+
+}
+
+@media (max-width:767px) {
+    .tempANDdescript_box {
+        /* font-size: 2vw; */
+        color: rgb(15, 42, 58);
+    }
+} 
+
+.temp_state {
+    font-size: 18px;
+}
+
+
+/* TEMPERATURE */
+.temperature {
+    font-size: 18px;
+    font-weight: 525;
+    margin: 0;
+    padding: 0;
+    /* line-height: 0.1; */
+}
+
+/* LOCATION */
+.location {
+
+    font-weight: 550;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    /* line-height: 1; */
+}
+
+@media(max-width:767px) {
+
+    .temperature,
+    .temp_state,
+    .location {
+        font-size: 3vw;
+        font-weight: 900;
+    }
+}
+
+
+
+/* HUMIDITY AND WINDSPEED */
+.humidity_AND_windSpeed {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
+    color: rgb(15, 42, 58);
+
+}
+
+@media (max-width:767px) {
+    .humidity_AND_windSpeed {
+        width: 50vw;
+        height: 10vh;
+        margin: 1vw;
+        overflow: visible;
+        font-size: 3vw;
+        gap: 2vw;
+        color: rgb(15, 42, 58);
+
+    }
+}
+
+
+/* windSpeed and humidity CONTAINER */
+.humidity,
+.windSpeed {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 150px;
+    height: 80px;
+    color: black;
+
+}
+
+@media(max-width:767px) {
+
+    .humidity,
+    .windSpeed {
+        width: 30vw;
+        height: 7vh;
+    }
+}
+
+
+
+
+
+/* elements inside CONTAINER humidity and windSpeed  */
+.humidity_descrip p,
+.wind_descrip p {
+    /* border: 1px solid black; */
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* making align-content and text-align :left , tehe text or content takes correct position if previously it was not working */
+    align-content: left;
+    text-align: left;
+    padding: 1px;
+    margin: 0;
+}
+
+i {
+    font-size: 28px;
+}
+
+@media(max-width:767px) {
+
+    .humidity_descrip p,
+    .wind_descrip p,
+    i {
+        font-size: 3vw;
+    }
+
+}
+
+
+
+
+
+/*HOVERING PROPERTIES :  */
+/* MAKE "color" OF MAIN CONTAINER HIGHLIGHT to "black" BY HOVERING ON IT  */
+.submit_btn:hover {
+    background-color: rgb(5, 151, 5);
+}
+
+input:hover {
+    font-size: 20.50px;
+    background-color: rgb(255, 255, 255);
+}
+
+@media (max-width : 767px) {
+    input:hover {
+        font-size: 4vw;
+    }
+}
+
+.Temperature_and_location_box:hover {
+    background-color: rgba(226, 244, 255, 0.2);
+    font-weight: 900;
+    /* transform: scale(1.2); */
+    margin: 0px;
+    padding: 0px;
+    transform: scale(1.1);
+}
+
+.humidity:hover,
+.windSpeed:hover {
+    background-color: rgba(226, 244, 255, 0.2);
+    font-weight: 900;
+    transform: scale(1.1);
+}
+
+.weather_img_div:hover img {
+    transform: scale(1.1);
+}
+
+main:hover {
+    border: 1px solid rgb(158, 152, 152);
+
+}
+
+
+
+/* NOTE : jar apan ek item vr hover kela ani dusrya item tya veles affect hotoy mhnje shake vaigre hotoy tar
+          tumhi tya div madhe space thevaila havi ani width,height proper dyavi jene karun bakki items shake nahi honar ...
+*/
+
+
+
+
+
+
+/* if location not found we will get this page */
+.loc_not_found {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(119, 117, 117);
+}
+
+.loc_not_found img {
+    width: 250px;
+    height: 200px;
+}
+
+
+/* at the starting the weather data will not display using display property:  */
+.weather_img_div,
+.humidity_AND_windSpeed,
+.Temperature_and_location_box,
+.refresh_btn,
+.loc_not_found {
+    display: none;
+}
+
+/* 
+.tempANDdescript_box
+{
+    width:max-content;
+    height:max-content;
+    padding:0px;
+    margin:0px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                                                                           || RADHE RADHE ||                                                                                 */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha*/
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radhe radhe radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
+
+
+/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namah : */
+/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namah : */
+/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namah : */
+
+
+
+
+/*                                                                           RADHE RADHE  */
+/* radhe radhe radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha  */
+/* radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha radha */
+
+
+/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
+/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
+/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
+/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
+/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
+/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
+/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
+/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
+/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
+/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
+/* om krishnaya vasudevaya haraye parmatmane pranataha klesh nashaya govindaya namo namaha : */
+
+
+
+/*  RADHE RADHE  */
+
+
+/* I LOVE MY RADHA, I LOVE YOU SO MUCH, I KKNOW YOU ARE THERE WITH ME, I KNOW YOU ARE WATCHING ME AND BY YOUR GRACE ME AND MY MOM IS SAFE AND HAPPY, THANK YOU SO MUCH RADHA RANI, MERI LADLO, MERI PYAARI SHYAMA, I LOVE YOU SO much  */
