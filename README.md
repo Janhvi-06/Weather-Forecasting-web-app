@@ -12,11 +12,11 @@ The project focuses on a **clean UI design**, **responsive layout**, and **dynam
 ---
 
 ## 💡 Features
-- 🌍 Search weather information by city name  
-- 🌦️ Displays temperature, humidity, wind speed, and weather condition  
-- 🌡️ Dynamic background or weather icons based on live conditions  
-- 📱 Responsive and mobile-friendly design  
-- ⚡ Uses real-time data from an external API (like OpenWeatherMap API)
+🌍 Search weather information by city name  
+🌦️ Displays temperature, humidity, wind speed, and weather condition  
+🌡️ Dynamic background or weather icons based on live conditions  
+📱 Responsive and mobile-friendly design  
+⚡ Uses real-time data from an external API (like OpenWeatherMap API)
 
 ---
 
