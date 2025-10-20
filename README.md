@@ -40,5 +40,19 @@ The project focuses on a **clean UI design**, **responsive layout**, and **dynam
 ## 🧩 API Integration
 This project uses a public API such as **OpenWeatherMap API** to fetch weather data.  
 You can register for a free API key and replace it in your `script.js` file like this:
-```javascript
 const apiKey = "your_api_key_here";
+
+## 🎯 Purpose of the Project
+This project was developed as part of my **internship program** to gain hands-on experience with:  
+- API integration using JavaScript  
+- Front-end design principles  
+- GitHub project management  
+- Real-world web application deployment
+
+## 👩‍💻 Developer Info
+**Developer:** Janhvi Chogale  
+**Email:** [janhvichogale123@gmail.com](mailto:janhvichogale123@gmail.com)  
+**GitHub:** [https://github.com/Janhvi-06](https://github.com/Janhvi-06)  
+**LinkedIn:** [https://www.linkedin.com/in/janhvi-chogale-084a29230](https://www.linkedin.com/in/janhvi-chogale-084a29230)
+
+
